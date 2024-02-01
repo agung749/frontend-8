@@ -66,8 +66,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-     <GoogleOAuthProvider clientId='461189598146-0uub0q2c9fdihqueom783ef1emdp9jdv.apps.googleusercontent.com'>
-      <RouterProvider router={router} />
-    </GoogleOAuthProvider>
+ <GoogleOAuthProvider clientId='945968067936-r38m51b7iahv036lhk1ke9qqeb86dm64.apps.googleusercontent.com' redirectUri='https://heartfelt-sherbet-3deded.netlify.app'>
+  <RouterProvider router={router} />
+</GoogleOAuthProvider>
+
   </React.StrictMode>,
 )
